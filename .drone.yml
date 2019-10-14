@@ -5,7 +5,7 @@ steps:
     image: alpine
     commands:
       - echo "Hi form the first step"
-  - build-image:
+  - name: build-image
     image: plugins/docker
     settings:
       repo: fagoner/gitintro
